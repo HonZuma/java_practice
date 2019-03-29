@@ -4,3 +4,10 @@ function max(arg1, arg2) {
 		return arg1;
 	return arg2;
 }
+
+function min(arg1, arg2) {
+	var arg1Smaller = arg1 < arg2;
+	if (arg1Smaller)
+		return arg1;
+	return arg2;
+}
